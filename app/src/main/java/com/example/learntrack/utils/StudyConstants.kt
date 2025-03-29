@@ -26,5 +26,7 @@ object StudyConstants {
     object NotificationConstants {
         const val NOTIFICATION_CHANNEL_ID = "timer_notification_channel_id"
         const val NOTIFICATION_CHANNEL_NAME = "timer_notification_channel_name"
+        const val NOTIFICATION_ID = 10
+        const val CLICK_REQUEST_CODE = 100
     }
 }

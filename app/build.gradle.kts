@@ -21,6 +21,11 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
+
+
+        ksp {
+            arg("correctErrorTypes", "true")
+        }
     }
 
     buildTypes {
